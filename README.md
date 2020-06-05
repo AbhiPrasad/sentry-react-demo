@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To get the Sentry stuff working, first run `yarn link:yarn` in the `sentry-javascript` repo, and then run `yarn link @sentry/browser @sentry/node @sentry/core @sentry/minimal @sentry/hub @sentry/types @sentry/utils @sentry/typescript @sentry/integrations @sentry/apm @sentry/react`
+
 ## Available Scripts
 
 In the project directory, you can run:
